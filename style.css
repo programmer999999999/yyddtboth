@@ -2,6 +2,43 @@
     box-sizing: border-box;
 }
 
+.highlight-recommend {
+}
+
+.vip-marquee {
+    display: inline;
+    white-space: normal;
+}
+
+.highlight-recommend {
+    background: linear-gradient(90deg, #fffbe6 0%, #ffe066 40%, #bfa14b 100%);
+    border: 2px solid #c9b037;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #7c5a02;
+    padding: 12px 22px;
+    margin: 12px 0;
+    font-size: 1.22em;
+    box-shadow: 0 2px 12px rgba(201, 176, 55, 0.18);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 0 #fffbe6, 0 2px 4px #bfa14b33;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .highlight-recommend {
+    font-size: 1em;
+    padding: 8px 8px;
+  }
+  .vip-marquee {
+    animation: none;
+  }
+}
+
+
 body {
     font-family: 'ZCOOL KuaiLe', cursive;
     margin: 0;
